@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -6,8 +6,8 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
+          src="/images/vajbi_logo.png"
+          alt="Vajbi logo"
           width={180}
           height={38}
           priority
@@ -18,7 +18,6 @@ export default function Home() {
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               app/page.tsx
             </code>
-            .
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
@@ -97,5 +96,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  );
+  )
 }
